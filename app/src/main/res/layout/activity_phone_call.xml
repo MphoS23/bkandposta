@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Dashboard.PhoneCallActivity"
+    tools:ignore="MissingConstraints">
+
+    <EditText
+        android:id="@+id/mobnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="232dp"
+        android:background="@drawable/back_email"
+        android:drawableStart="@drawable/baseline_call_24"
+        android:drawablePadding="15dp"
+        android:hint="@string/enter_number_for_call"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mobnum"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/btn_thing"
+        android:onClick="dialCall"
+        android:text="@string/make_call"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/mobnum"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/mobnum"
+        app:layout_constraintTop_toBottomOf="@+id/mobnum" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:fontFamily="@font/gontserratbold"
+        android:text="@string/make_call_btn"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

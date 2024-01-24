@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PAMA</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="web_browser">Web Browser</string>
+    <string name="make_call">Make Call</string>
+    <string name="enter_number_for_call">Enter Number for call</string>
+    <string name="make_call_btn">Make Call</string>
+    <string name="login">Login</string>
+    <string name="by_signing_in_you_are_agreeing_nour_term_and_privacy_policy">By signing in you are agreeing \nour term and privacy policy</string>
+    <string name="login_">Login</string>
+    <string name="register">Register</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login_o">Login</string>
+    <string name="or_connect_with">Or Connect with</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="message">Message</string>
+    <string name="send">send</string>
+    <string name="send_message_">Send Message</string>
+    <string name="search_here_mate">Search Here Mate</string>
+    <string name="forgot_password__">Forgot Password</string>
+</resources>

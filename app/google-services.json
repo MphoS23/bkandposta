@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "593962372239",
+    "firebase_url": "https://myassignment-d3174-default-rtdb.firebaseio.com",
+    "project_id": "myassignment-d3174",
+    "storage_bucket": "myassignment-d3174.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593962372239:android:cb49c6d3875a9903f574fa",
+        "android_client_info": {
+          "package_name": "com.madassignment.pama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593962372239-haidkreeqb3iikt9r77flmhmuo2a5c22.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB30WplImp9eM6noErIqcWJabSO_iZhwr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593962372239-haidkreeqb3iikt9r77flmhmuo2a5c22.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

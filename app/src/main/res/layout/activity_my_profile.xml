@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Dashboard.MyProfileActivity"
+    tools:ignore="MissingConstraints">
+
+    <TextView
+        android:id="@+id/setFirstNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_email"
+        android:hint="firstName"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:drawableStart="@drawable/person"
+        android:drawablePadding="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/setEmailTextView"
+        app:layout_constraintStart_toStartOf="@+id/setEmailTextView"
+        app:layout_constraintTop_toBottomOf="@+id/setEmailTextView" />
+
+    <TextView
+        android:id="@+id/setLastNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="lastName"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_email"
+        android:drawableStart="@drawable/person"
+        android:drawablePadding="15dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/setFirstNameTextView"
+        app:layout_constraintTop_toBottomOf="@+id/setFirstNameTextView" />
+
+    <TextView
+        android:id="@+id/setGenderTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_email"
+        android:hint="Gender"
+        android:drawableStart="@drawable/baseline_transgender_24"
+        android:drawablePadding="15dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/setLastNameTextView"
+        app:layout_constraintStart_toStartOf="@+id/setLastNameTextView"
+        app:layout_constraintTop_toBottomOf="@+id/setLastNameTextView" />
+
+    <TextView
+        android:id="@+id/setEmailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_email"
+        android:layout_marginTop="52dp"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="15dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/ProfileTXT"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/ProfileTXT"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileTXT" />
+
+    <TextView
+        android:id="@+id/setAddressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:drawableStart="@drawable/baseline_edit_location_alt_24"
+        android:drawablePadding="15dp"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_email"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/setGenderTextView"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="@+id/setGenderTextView"
+        app:layout_constraintTop_toBottomOf="@+id/setGenderTextView" />
+
+    <TextView
+        android:id="@+id/ProfileTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="My Profile"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:fontFamily="@font/gontserratbold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/editBtn"
+        android:layout_width="47dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_thing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="@+id/setAddressTextView"
+        app:layout_constraintTop_toBottomOf="@+id/setAddressTextView"
+        app:srcCompat="@drawable/baseline_edit_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
